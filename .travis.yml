@@ -13,4 +13,4 @@ jdk:
 git:
   depth: false
 
-script: mvn verify -X -e
+script: travis_wait 30 mvn verify
