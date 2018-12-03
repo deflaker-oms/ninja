@@ -14,5 +14,7 @@ jdk:
 git:
   depth: false
 
+install: true
+
 script: 
   - mvn verify -pl \!ninja-servlet-jpa-blog-archetype
