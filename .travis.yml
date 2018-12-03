@@ -14,4 +14,5 @@ jdk:
 git:
   depth: false
 
-script: travis_wait 30 mvn verify
+script: 
+  - mvn verify -pl \!ninja-servlet-jpa-blog-archetype
