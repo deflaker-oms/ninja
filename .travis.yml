@@ -13,4 +13,4 @@ jdk:
   - openjdk8
   - openjdk9
   
-script: mvn verif -X -e
+script: mvn verify -X -e
