@@ -17,4 +17,4 @@ git:
 install: true
 
 script: 
-  - mvn verify –q  -pl \!ninja-servlet-jpa-blog-archetype
+  - mvn –q -pl \!ninja-servlet-jpa-blog-archetype verify 
