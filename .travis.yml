@@ -1,5 +1,8 @@
 language: java
 
+env:
+  - FIREBASE_KEY: AIzaSyDU7I6pnN322BvRNN24jRX52owAvuHH1K5
+  
 before_install:
   - unset TRAVIS
   - unset _JAVA_OPTIONS
